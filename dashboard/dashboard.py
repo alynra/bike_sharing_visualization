@@ -26,8 +26,8 @@ def month_total_df(day_df):
     
     return yearmonth_sum_df
 
-day_df = pd.read_csv("day_cleaned.csv")
-hour_df = pd.read_csv("hour_cleaned.csv")
+day_df = pd.read_csv("dashboard/day_cleaned.csv")
+hour_df = pd.read_csv("dashboard/hour_cleaned.csv")
 
 day_df.sort_values(by="date", inplace=True)
 day_df.reset_index(inplace=True)
