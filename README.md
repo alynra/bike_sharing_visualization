@@ -6,6 +6,7 @@ Untuk melihat tampilan dashboard dengan membuka url yang ada di file `url.txt`.
 ## Instalasi Proyek
 1. Clone proyek dari github.
    ```
+   git clone https://github.com/alynra/bike_sharing_visualization.git
    ```
 3. Install environment dan library
    ```
